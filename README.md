@@ -9,7 +9,7 @@
     Jul 22 20:26:33 alinsrv01 IsVmInMaintforCron.sh[61564]: Incoming VM Event - "EventID": "0a0a13a3-dc0d-4bbe-ab24-df710a3917e6",
 
 ## 戻り値
-    イベントがある場合 常に1 を返します。
+イベントがある場合 常に1 を返します。
 
 ## パターン
 * イベント無し->イベント発生 = logger 出力 + 戻り値 1
