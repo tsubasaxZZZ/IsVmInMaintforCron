@@ -33,5 +33,5 @@ if [ $IS_EVENT -eq 0 ]; then
 fi
 mv $RESULT1_FILE $RESULT2_FILE
 
-echo "---$RETVAL---"
+#echo "---$RETVAL---"
 exit $RETVAL
