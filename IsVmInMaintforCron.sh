@@ -8,8 +8,8 @@ SCRIPT_NAME=$(basename $0)
 RESULT1_FILE="$CWD/result1.out"
 RESULT2_FILE="$CWD/result2.out"
 LOGGER="logger -is -t $SCRIPT_NAME"
-#CHECK_URL="http://169.254.169.254/metadata/v1/maintenance"
-CHECK_URL="http://azure-nomupro.cloudapp.net:8080/testazure.html"
+CHECK_URL="http://169.254.169.254/metadata/v1/maintenance"
+#CHECK_URL="http://azure-nomupro.cloudapp.net:8080/testazure.html"
 RETVAL=0
 
 # 結果ファイルの作成
