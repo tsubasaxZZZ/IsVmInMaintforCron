@@ -1,5 +1,11 @@
 # IsVmInMaintforCron
 
+## 事前準備
+jq コマンドをスクリプトと同じディレクトリに配置しておく必要があります。
+
+    curl -o jq http://stedolan.github.io/jq/download/linux64/jq
+等でダウンロードします。
+
 ## 実行方法
     ./IsVmInMaintforCron.sh
 
