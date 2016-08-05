@@ -6,6 +6,10 @@ jq コマンドをスクリプトと同じディレクトリに配置してお�
     curl -o jq http://stedolan.github.io/jq/download/linux64/jq
 等でダウンロードします。
 
+ダウンロードした jq コマンドは実行権限を付けておきます。
+
+    chmod +x jq
+
 ## 実行方法
     ./IsVmInMaintforCron.sh
 
